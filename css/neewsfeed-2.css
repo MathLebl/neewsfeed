@@ -1,16 +1,43 @@
-.post {
-	height: 600px;
-	width: 600px;
-	border: solid 1px black;
+.newsfeed {
+  list-style: none;
+  align-content: center;
 }
+
+
+
 
 
 .avatar {
   border-radius: 50%;
   width: 50px;
- }
+}
 
 .users-likes {
 	display: flex;
-	flex: space-between;
+	align-items: center;
+	justify-content: space-around;
+	position: absolute;
+	padding-top: 15px;
+}
+
+
+.gif {
+	position: absolute;
+	top: 100px;
+	size: stretch;
+}
+
+.footer {
+	position: absolute;
+	bottom: 10px;
+	text-align: center;
+}
+
+.post {
+	height: 420px;
+	width: 420px;
+	border: solid 5px black;
+	display: flex;
+	justify-content: space-around;
+	position: relative;
 }
