@@ -1,0 +1,16 @@
+.post {
+	height: 600px;
+	width: 600px;
+	border: solid 1px black;
+}
+
+
+.avatar {
+  border-radius: 50%;
+  width: 50px;
+ }
+
+.users-likes {
+	display: flex;
+	flex: space-between;
+}
