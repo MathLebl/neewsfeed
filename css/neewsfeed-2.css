@@ -24,7 +24,7 @@
 
 .users-likes h2 {
 	font-size: 13px;
-	padding:20px;
+	margin: 20px;
 }
 
 
@@ -39,20 +39,24 @@
 	position: absolute;
 	bottom: 10px;
 	text-align: center;
+	margin: 15px;
 }
 
 .post {
 	height: 420px;
 	width: 420px;
-	border: solid 5px black;
+	border: solid 5px #a87eff;
 	display: flex;
 	justify-content: space-around;
 	position: relative;
+	margin: 12px;
 }
 .footer p {
 	
-	font-size: 30px;
+	font-size: 24px;
+	color: #a87eff;
 }
+
 
 
 
